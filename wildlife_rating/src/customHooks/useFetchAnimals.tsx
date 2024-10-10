@@ -25,7 +25,7 @@ const ANIMALS_LIST = [
   "penguin",
   "rabit",
   "cat",
-  "python",
+  "bear",
   "crocodile",
   "hippopotamus"
 ];
