@@ -10,11 +10,16 @@ A wildlife rating app that use Reaact, TypeScript, Tailwind and Animals API
 
 Clone the repository
 
-
+```
+  git clone https://github.com/tichzvidzayi/wildlife_rating.git
+```
 
 
 Navigate to folder /wildlife_rating
 
+```
+cd  wildlife_rating
+```
 
 
 Install dependencies
