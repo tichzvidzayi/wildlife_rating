@@ -38,7 +38,7 @@ const AnimalList: React.FC = () => {
   };
 
   if (error)
-    return <p className="text-red-500 text-2xl"> API Error: {error}</p>;
+    return <p className="text-red-500 text-2xl"> API fetch Error: {error}</p>;
 
   return (
     <div className="w-full h-screen py-8 px-4">
