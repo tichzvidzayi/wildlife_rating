@@ -20,6 +20,7 @@ const ANIMALS_LIST = [
   "falcon",
   "baboon",
   "ant",
+  "cow",
   "meerkat",
   "moose",
   "penguin",

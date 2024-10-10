@@ -24,9 +24,7 @@ const AnimalList: React.FC = () => {
       const updatedFavorites = [...favorites, animal];
       setFavorites(updatedFavorites);
       setToStorage("favorites", updatedFavorites);
-      console.log(`Added ${animal.name} to favorites`, updatedFavorites);
-    } else {
-      alert(`Oops ${animal.name} is already in your favorites`);
+      // console.log(`Added ${animal.name} to favorites`, updatedFavorites);
     }
   };
 
@@ -36,7 +34,7 @@ const AnimalList: React.FC = () => {
     );
     setFavorites(updatedFavorites);
     setToStorage("favorites", updatedFavorites);
-    console.log(`Removed ${animal.name} from favorites`, updatedFavorites);
+    // console.log(`Removed ${animal.name} from favorites`, updatedFavorites);
   };
 
   if (error)

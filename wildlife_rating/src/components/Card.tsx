@@ -69,7 +69,6 @@ const AnimalCard: React.FC<AnimalProps> = ({
         </button>
       </div>
 
-      {/* Show Rating Form Modal */}
       {isModalOpen && <RatingFormModal animal={animal} onClose={toggleModal} />}
     </div>
   );
