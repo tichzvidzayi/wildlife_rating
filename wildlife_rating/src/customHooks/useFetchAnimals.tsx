@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 
-// can use .env file
+/* can use .env file:
+  const API_KEY = process.env.APP_API_KEY;
+  const API_URL = process.env.APP_URL;
+*/
 const API_KEY = "vtFsdMhKA1rVEps9JnXtZg==dDlJOqxwqimPgra8";
 // Sample animals list
 const ANIMALS_LIST = [
